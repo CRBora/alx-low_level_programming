@@ -4,7 +4,7 @@
 
 /**
  * main - function to determine if number is +, - or 0
- * @n: number to be determined
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)

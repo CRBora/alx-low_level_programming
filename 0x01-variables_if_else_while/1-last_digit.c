@@ -5,7 +5,7 @@
 /**
  * main - function that prints the last digit of a randomly generated
  * number and whether it is > 5, < 6 or 0
- * @n: randomly generated number
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
