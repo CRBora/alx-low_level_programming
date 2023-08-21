@@ -12,9 +12,9 @@ void print_line(int n)
 	}
 	else
 	{
-		int i;
+		int l;
 
-		for (i = 1; i <= n; i++)
+		for (l = 1; l <= n; l++)
 		{
 			_putchar('_');
 		}
