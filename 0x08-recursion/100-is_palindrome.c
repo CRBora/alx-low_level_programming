@@ -33,7 +33,7 @@ int _strlen_recursion(char *s)
  * check_paln - function that checks the characters recursively
  * for palindrome
  * @s: pointer to string to check
- * @i: iterator
+ * @l: iterator
  * @len: length of the string
  *
  * Return: 1 if palindrome, otherwise 0
