@@ -1,15 +1,25 @@
 #include "function_pointers.h"
 
 /**
- * _puts - function that prints a string
- * @str: pointer to printed string
+ * rev_string - function that reverses a string
+ * @s: pointer to string to be reversed
  */
-void _puts(char *str)
+void rev_string(char *s)
 {
-	while (*str != '\0')
-		_putchar(*str++);
+	char rev = s[0];
+	int r = 0;
+	int l;
 
-	_putchar('\n');
+	while (s[r] != '\0')
+		r++;
+
+	for (l = 0; l < r; l++)
+	{
+		r--;
+		rev = s[l];
+		s[l] = s[r];
+		s[r] = rev;
+	}
 }
 
 /**
