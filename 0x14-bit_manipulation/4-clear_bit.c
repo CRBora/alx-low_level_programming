@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * clear_bit - function that sets the value of a bit to 1 at a given index
+ * clear_bit - function that sets the value of a bit to 0
+ * at a given index
  * @n: pointer to binary number
  * @index: index of bit to clear
  *
